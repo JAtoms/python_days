@@ -1,3 +1,0 @@
-with open(path) as file:
-    print(file.read())Whoops
-Whoops

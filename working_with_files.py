@@ -1,4 +1,5 @@
 import shutil
+import os
 
 path = "test.txt"
 
@@ -27,4 +28,17 @@ path = "test.txt"
 #     print(file.read())
 
 # Copying files
-shutil.copy(path, "abuj.txt")
+# shutil.copy(path, "abuj.txt")
+
+# Deleting a File
+# os.remove('test.txt')
+
+# Deleting empty directory
+# os.rmdir("directory")
+
+# Deleting a directory with files
+# shutil.rmtree("directory")
+
+
+
+#
